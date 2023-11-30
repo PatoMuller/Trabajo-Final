@@ -11,7 +11,8 @@
 
 *{
 	box-sizing: border-box;
-	font-family: 'Righteous', sans-serif;
+	font-family:  'Poppins', sans-serif;
+	color: #333;
 }
 
 html{
@@ -169,11 +170,12 @@ div{
 .name_projet {
 	margin-top: 0;
 	margin-bottom: 0;
-	padding-bottom: 15px;
+	padding-bottom: 35px;
 	flex: 0 auto;
 	font-family:  'Poppins', sans-serif;
 	font-weight: 400;
-	color: #333333;
+	font-size: 2rem;
+	color: #222;
 }
 .slogan {
 	margin-top: 0;
@@ -181,6 +183,39 @@ div{
 	flex: 0 auto;
 	font-family:  'Poppins', sans-serif;
 	font-weight: 300;
+}
+
+.proyecto_info_container {
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 0 108px 10vh 108px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	text-align: justify;
+}
+
+.proyecto_info_columna {
+	width: 50%;
+	padding-right: 10px;
+}
+
+.info_parrafo h6 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #333;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 400;
+}
+
+.info_parrafo p {
+	margin-bottom: 15PX;
+	padding-left: 0;
+	font-weight: 200;
+}
+p.caba {
+	font-weight: bold;
 }
 
 
