@@ -213,11 +213,20 @@ div{
 	margin-bottom: 15PX;
 	padding-left: 0;
 	font-weight: 200;
+	line-height: 25px;
 }
+
 p.caba {
 	font-weight: bold;
 }
 
+.bw_proyecto_galeria_container{
+	display: flex;
+	width: 100%;
+	padding-right: 0;
+	padding-left: 108px;
+	padding-bottom: 108px;
+}
 
 
 /* SECCION INICIO 
