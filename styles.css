@@ -227,6 +227,49 @@ p.caba {
 	padding-left: 108px;
 	padding-bottom: 108px;
 }
+.plantas_container {
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 0 108px 10vh 108px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	align-items: flex-end;
+}
+.plantas_cen {
+	display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+
+.planta_container_columna{
+	position: relative;
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.imagen_container {
+	position: relative;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+	justify-content: center;
+}
+
+
+.img_ss{
+	width: 95%;
+
+}
+
+img {
+	border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block
+}
 
 
 /* SECCION INICIO 
