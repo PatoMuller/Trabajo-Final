@@ -1,12 +1,6 @@
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@500&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
-
-
 
 
 *{
@@ -246,7 +240,7 @@ p.caba {
 
 h2, h3{
 	font-family: 'Poppins', sans-serif;
-	letter-spacing: 0.8rem;
+	letter-spacing: 0.38rem;
 }
 .plantas_container {
 	display: flex;
