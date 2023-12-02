@@ -176,6 +176,7 @@ div{
 	font-weight: 400;
 	font-size: 2rem;
 	color: #222;
+	letter-spacing: 0.8rem;
 }
 .slogan {
 	margin-top: 0;
@@ -207,6 +208,7 @@ div{
 	font-size: 20px;
 	line-height: 25px;
 	font-weight: 400;
+	letter-spacing: 0.8rem;
 }
 
 .info_parrafo p {
@@ -226,6 +228,25 @@ p.caba {
 	padding-right: 0;
 	padding-left: 108px;
 	padding-bottom: 108px;
+}
+
+.heading {
+    width: 100%;
+	height: auto;
+	padding: 0 108px 10vh 108px;
+}
+
+.container_heading{
+	display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+}
+
+h2, h3{
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 0.8rem;
 }
 .plantas_container {
 	display: flex;
@@ -259,9 +280,8 @@ p.caba {
 }
 
 
-.img_ss{
+.img_ps{
 	width: 95%;
-
 }
 
 img {
@@ -269,6 +289,18 @@ img {
     max-width: 100%;
     vertical-align: middle;
     display: inline-block
+}
+
+p.img_epigrafe {
+	position: absolute;
+    left: auto;
+    top: 100%;
+    right: 0;
+    bottom: auto;
+    margin-top: 12px;
+    margin-bottom: 0;
+    text-align: right;
+    font-size: 1rem;
 }
 
 
