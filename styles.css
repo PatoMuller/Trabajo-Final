@@ -303,6 +303,23 @@ p.img_epigrafe {
     font-size: 1rem;
 }
 
+.vistas_container {
+	display: flex;
+	width: 100%;
+	height: auto;
+	padding: 10vh 108px;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	align-items: flex-end;
+}
+
+.vista_cen {
+	display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+}
 
 /* SECCION INICIO 
 
