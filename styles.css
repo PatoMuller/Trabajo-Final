@@ -85,8 +85,8 @@ a{
 	position: relative;
 	display: block;
 	margin-top: 0;
-
 }
+
 .pag_container {
 	position: relative;
 	z-index: 3;
@@ -346,9 +346,26 @@ i{
     text-align: center;
 }
 
-i {
+.heading_ubicacion {
+	  width: 100%;
+	height: auto;
+	padding: 10vh 108px;	
 }
 
+.container_heading_ubicacion{
+	display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-end;
+    padding-bottom: 2rem;
+} 
+
+ iframe {
+ 	width: 100%;
+}
+
+ 	
 
 /* SECCION INICIO 
 
