@@ -336,7 +336,7 @@ p.img_epigrafe {
 	padding: 10vh 108px;
 }
 
-i{
+.amenitie_container i{
 	font-size: 4rem;
 }
 
@@ -365,7 +365,48 @@ i{
  	width: 100%;
 }
 
+footer {
+	display: flex;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .1);
+	align-items: center;
+}
+
+.yo {
+	text-align: left;
+	align-items: center;
+	width: 50%;
+	padding-left: 108px;
+	padding-top: 10vh;
+}
  	
+.redes {
+	text-align: left;
+	align-items: center;
+	width: 50%;
+	padding-left: 108px;
+	padding-top: 10vh;
+}
+.redes a i {
+  font-size: 2rem;
+  padding-top: 0.5rem;
+ }
+
+.redes a{
+	 color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    line-height: 42px;
+    margin: 40px 25px;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
 
 /* SECCION INICIO 
 
