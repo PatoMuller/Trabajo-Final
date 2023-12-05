@@ -398,7 +398,7 @@ figcaption {
 }
 
 .heading_ubicacion {
-	  width: 100%;
+	width: 100%;
 	height: auto;
 	padding: 10vh 108px;	
 }
@@ -460,6 +460,100 @@ footer {
     transition: .3s;
 }
 
+.contacto {
+    background-color:#fff;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+
+}
+.contenido-seccion{
+    margin: auto;
+    width: 100%;
+	height: auto;
+	padding: 10vh 108px;
+}
+.container_masproyectos {
+  position:relative;
+  text-transform: uppercase;
+  font-size:21px;
+  padding-top: 300px;
+  justify-content: flex-end;
+
+}
+
+
+h4 {
+	 writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+
+.contacto h2{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.38rem;
+    text-align: left;
+   margin-left: 0;
+   padding-bottom: 1.5rem;
+ }
+
+.contacto .fila{
+    display: flex;
+}
+.contacto .col{
+    width: 50%;
+    position: relative;
+}
+
+
+.contacto .col input, .contacto .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color:#252a2b;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.contacto button{
+    cursor: pointer;
+    background-color:#fff;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #333;
+    position: relative;
+    z-index: 10;
+}
+.contacto button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1);
+    z-index: -1;
+    transition: 1s;
+}
+.contacto button:hover .overlay{
+    width: 100%;
+}
+
+.container_cel {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 500px;
+	
+}
+.container_cel i {
+	font-size: 4rem;
+
+}
 
 
 /*SECCION R E S P O N S I V E*/
@@ -471,7 +565,94 @@ footer {
 }
 
 @media (min-width:577px) and (max-width:1000px) {
+	.logo {
+		height: 30px;
+
+	}
+    ul.menu_container {
+ 	flex-direction: column;
+    }
+    
+
+
+    .name_projet {
+    	font-size: 1rem;
+    }
 	
+	.menu_container li {
+        margin: 1.9vw 20px 0 20px;
+    }
+    .slogan {
+	font-weight: 300;
+	font-size: 1rem;
+    }
+
+    .info_parrafo h6 {
+	font-size: 15px;
+	line-height: 17px;
+	letter-spacing: 0.4rem;
+	font-weight: bold;
+	}
+
+	h2, h3 {
+		letter-spacing: 0.1rem;
+    }
+    
+    .amenitie_container {
+    	padding-left: 2px;
+    	padding-right: 2px;
+    }
+
+    .amenitie_container i{
+	font-size: 1.5rem;
+    }
+
+    figcaption {
+	font-size: 0.5rem;
+    }
+    .amenities_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0;
+    }
+
+    .container_heading_amenities {
+    	padding-bottom: 1rem;
+    }
+    
+    .yo{
+    	font-size: 0.7rem;
+    }
+
+    .redes {
+    	display: flex;
+    	padding: 0;
+    }
+
+
+    .redes a i {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    cursor: pointer;
+    }
+
+    .redes a{
+	color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    line-height: 42px;
+    margin: 40px 25px;
+    font-size: 1.5rem;
+    transition: .3s;
+}
+
+
 		
 }
 
@@ -530,6 +711,10 @@ footer {
     	padding-bottom: 1rem;
     }
     
+    .yo{
+    	font-size: 0.7rem;
+    }
+
     .redes {
     	display: flex;
     	padding: 0;
@@ -537,10 +722,11 @@ footer {
 
 
     .redes a i {
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-top: 0.5rem;
     cursor: pointer;
     }
+
     .redes a{
 	color: #fff;
     display: inline-block;
