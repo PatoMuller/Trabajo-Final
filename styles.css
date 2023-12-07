@@ -775,7 +775,7 @@ h4 {
 	padding-left: 30px;
 	padding-right: 30px;
     }
-        
+
     .amenitie_container {
     	padding-left: 2px;
     	padding-right: 2px;
@@ -800,21 +800,36 @@ h4 {
     	padding-bottom: 1rem;
     }
 
+    .heading_ubicacion {	
+	padding-left: 30px;	
+	padding-right: 30px;
+    } 
+
+
     .contacto .fila {
     
     }
+    .contenido-seccion {
+    padding-left: 30px;
+    padding-right: 30px;
+    }
 
-
- 
     .contacto .col{
         width: 100vh;
   
     }
+
+    footer {
+    	padding-left: 30px;
+    	padding-right: 30px;
+    }
+
     
     .yo{
     	font-size: 0.7rem;
+    	padding-left: 0;
     }
-
+    
     .redes {
     	display: flex;
     	padding: 0;
