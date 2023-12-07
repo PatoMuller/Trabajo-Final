@@ -735,10 +735,22 @@ h4 {
 	font-size: 1rem;
     }
 
+
     .proyecto_info_columna {
 	width: 100%;
 
      }
+
+     .bw_proyecto_galeria_container {
+    	padding-left: 30px;
+    	padding-bottom: 30px;
+    }
+
+    .heading {
+    padding-left: 30px;
+	padding-right: 30px;
+
+    }
 
     .info_parrafo h6 {
 	font-size: 15px;
@@ -757,7 +769,13 @@ h4 {
     margin-bottom:50px;
    
     }
-    
+
+    .heading_amenities {
+   
+	padding-left: 30px;
+	padding-right: 30px;
+    }
+        
     .amenitie_container {
     	padding-left: 2px;
     	padding-right: 2px;
